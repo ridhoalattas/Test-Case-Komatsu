@@ -13,18 +13,24 @@ I have developed a system for analyzing Komatsu HD785-7 mining sensor data with 
 
 ## **How to Run :**
 1. Install dependencies:
+    <pre>
     '''shell
     pip install -r requirements.txt
     '''
+    </pre>
 2. Jupyter Notebook (EDA + prediction):
     main.ipynb contains EDA on SMR and Fuel Rate, anomaly discussion, and prediction using GeminiChatBot with custom prompts
 3. Python CLI:
     main.py can be executed with Typer CLI arguments:
-    '''python
+    <pre>
+    ```python
     python3 main.py --data-path=data/data.csv --data-definition-path=data/data_definition.csv --unit-name=Komatsu-HD785-7
     '''
+    </pre>
 4. Streamlit UI Demo:
     main_ui.py provides a simple UI to input data, data definition, and unit name, then retrieve insights:
-    '''python
+    <pre>
+    ```python
     streamlit run main_ui.py
     '''
+    </pre>
