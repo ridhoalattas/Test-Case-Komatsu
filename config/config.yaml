@@ -1,4 +1,4 @@
 gemini:
-  api_token: AIzaSyA2yLAc5Mmh5042HITflLtTPdD5dCz-soM
+  api_token: 
   model: gemini-2.5-flash
   temperature: 0.7
