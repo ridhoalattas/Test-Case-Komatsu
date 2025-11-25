@@ -1,0 +1,24 @@
+Column,Definition,Aggregate,Dimension
+calendar,Recording time,,datetime
+smr,Equipment Life,,hour
+Ambient_TempAve,Ambient temperature,Average,C
+Ambient_TempMax,Ambient temperature,Maximum,C
+Ambient_TempMin,Ambient temperature,Minimum,C
+Blowby_Press_Max,Blowby pressure,Maximum,mmH2O
+Boost_Press_Max,Boost pressure,Maximum,kPa
+Cool_Temp_Max,Coolant temperature,Maximum,C
+Cool_Temp_Min,Coolant temperature,Minimum,C
+ECO_ON,Economy mode activation,Sum,second
+E_Oil_P_Hi_Min,Engine oil pressure at high idle,Minimum,kg/cm2
+E_Oil_P_Lo_Min,Engine oil pressure at low idle,Minimum,kg/cm2
+E_Oil_P_Max,Engine oil pressure,Maximum,kg/cm2
+Eng_Oil_Tmp_Max,Engine oil temperature,Maximum,C
+Eng_Speed_Ave,Engine speed,Average,rpm
+Eng_Speed_Max,Engine speed,Maximum,rpm
+Fuel_Rate,Fuel rate,Average,l/h
+LF_Exh_Temp_Max,Left front exhaust gas temperature,Maximum,C
+LR_Exh_Temp_Max,Left rear exhaust gas temperature,Maximum,C
+RF_Exh_Temp_Max,Right front exhaust gas temperature,Maximum,C
+RR_Exh_Temp_Max,Right rear exhaust gas temperature,Maximum,C
+TM_Oil_Temp_Max,Transmission oil temperature,Maximum,C
+TravelSpeed_Max,Travel speed,Maximum,km/h
